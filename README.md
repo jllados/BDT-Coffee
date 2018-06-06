@@ -5,7 +5,7 @@ BDT-COFFEE is based on the integration of consistency information through Cassan
 Prerequisites
 --------------
 
-T-Coffee and PPCAS compilation requires the following tools installed on your system ``make``, ``gcc-c++``. Moreover, T-Coffee needs ``cpp-driver``, ``boost``, ``sparse-map`` and a custom memory allocator to allow allocations and deallocations to be done in any order ``jemalloc`` (the makefile path for these libraries are set to $(HOME)).
+T-Coffee and PPCAS compilation requires the following tools installed on your system ``make``, ``gcc-c++``. Moreover, T-Coffee needs ``cpp-driver``, ``boost``, ``sparse-map`` and a custom memory allocator to allow allocations and deallocations to be done in any order ``jemalloc`` (the makefile path for these libraries are set to ``$(HOME)``).
 
 The execution requires a ``Hadoop``, ``Spark`` and ``Cassandra`` infrastructure with the environment variables correctly set and its ``path``. Also a ``Python`` installation with ``Numpy`` is needed.
 
