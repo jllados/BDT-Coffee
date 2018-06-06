@@ -24,8 +24,8 @@ The shared library will be automatically generated.
 
 After, move in the project root folder and enter the following commands:
 
-	$ cd src
-	$ make
+    $ cd src
+    $ make
 	
 
 The binary will be automatically generated in the folder.
@@ -39,11 +39,11 @@ Required parameters:
 
     $ -i [sequence_file]
     $ -m [master_spark_ip]
-	$ -s [seed_cassandra]
+    $ -s [seed_cassandra]
     
 Optional parameters:
 
-	$ -c (chunk, default: no chunk)
+    $ -c (chunk, default: no chunk)
     $ -p (number of partitions, default: number of sequences)
     
 
